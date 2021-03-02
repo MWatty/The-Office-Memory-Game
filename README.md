@@ -4,8 +4,6 @@ Milestone Project 2 - Interactive Frontend - Code Institute
 
 ![MS2 - The Office]
 
-
-
 ## Demo
 
 A live demo can be found [here]
@@ -13,8 +11,6 @@ A live demo can be found [here]
 ## UX
 
 ### Strategy
-
-
 
 ### User Stories
 
