@@ -22,7 +22,6 @@ A live demo can be found [here]
 * As a visitor, I want to keep track of my previous scores and see how I have improved.
 * As a visitor, I want to progress to different levels.
 * As a visitor, I want to be able to play this game on all devices without impacting on quality.
-
 * As a returning visitor, I want to keep track of my previous scores and see how I have improved 
 * As a returning visitor, I want to progress to different levels 
 
@@ -55,8 +54,7 @@ A sample of screenshots below reflecting the above user stories:
 
 For users, the site owner wanted to achieve a website that is welcoming and unambigious. From the moment 
 the user visits the website it is clear that this is a memory game website based on the American Comedy Series "The Office". 
-The user will also have the option to contact the site owner should 
-they wish to do so and this can be done using the contact form or through one of the social media platforms. 
+ 
 
 ### Structure
 
@@ -72,7 +70,7 @@ easily discoverable and aims to ensure the user can get to their desired destina
 The colouring, theme and terminology used throughout the website is consistent.Returning visitors will know what to expect
 and feel a sense of comfort when browsing the website. 
 
-The website is interactive and provides elements of feedback to the user. This is evident in the use of
+The website is interactive and provides elements of feedback to the user. This is evident in the use of 
 
 
 Information in this section has been inspired by the information on [Code Institure](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/f6e2d80e148e43ce8ea42f85e00b7adc/?child=first)
@@ -83,11 +81,11 @@ All wireframes were created using [Balsamiq](http://balsamiq.com)
 
 Please find full PDF versions of wireframes and sketches below :
 
-* [Mobile Wireframe]
+* [Mobile Wireframe](https://github.com/MWatty/The-Office-Memory-Game/blob/master/wireframes/Wireframe%20-%20Mobile.pdf)
 
-* [Tablet Wireframe]
+* [Tablet Wireframe](https://github.com/MWatty/The-Office-Memory-Game/blob/master/wireframes/Wireframe%20-%20Tablet.pdf)
 
-* [Desktop Wireframe]
+* [Desktop Wireframe](https://github.com/MWatty/The-Office-Memory-Game/blob/master/wireframes/Wireframe%20-%20Desktop.pdf)
 
 ### Surface
 
@@ -111,7 +109,7 @@ xxx was chosen and paired with xxx as per the popular pairings section within [g
 
 
 #### Images
-
+<span>Photo by <a href="https://unsplash.com/@kaleidico?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kaleidico</a> on <a href="https://unsplash.com/s/photos/blueprint?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
 #### Final project variations
