@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Bootstrap CSS https://getbootstrap.com/docs/4.4/getting-started/introduction/-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>the office</title>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">the office</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="game.html">Play<span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Contact</a>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">the office</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="game.html">Play<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
 
 
-<div class="bg-image"></div>
-<div class="bg-text">
-  <h1 id="greeting"> the office, memory game</h1>
-  <p id="meetup">lets see can you remember everyone</p>
+    <div class="bg-image"></div>
+    <div class="bg-text">
+        <h1 id="greeting"> the office, memory game</h1>
+        <p id="meetup">lets see can you remember everyone</p>
 
- <!-- Button trigger modal -->
-    <button type="button" class="btn btn-light entry-button" data-toggle="modal" data-target="#enterModal">how to play!</button>
-    <a href="game.html"><button type="button" class="btn btn-light entry-button">new game!</button></a>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-light entry-button" data-toggle="modal" data-target="#enterModal">how to
+            play!</button>
+        <a href="game.html"><button type="button" class="btn btn-light entry-button">new game!</button></a>
     </div>
 
     <!-- Main Menu Modal -->
-    <div class="modal fade" id="enterModal" tabindex="-1" role="dialog" aria-labelledby="enterModal"
-        aria-hidden="true">
+    <div class="modal fade" id="enterModal" tabindex="-1" role="dialog" aria-labelledby="enterModal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content enterMenu">
                 <div class="modal-header d-block">
                     <h4 class="modal-title text-center">how to play</h4>
                 </div>
                 <div class="modal-body text-center">
-                            <p>Welcome to your first day in your new office, before you come in get acquainted
-                                with your new team. 
-                            </p>
-                            <button type="button" class="btn btn-light modal-button button-click" data-toggle="modal"
-                                data-target="#closeModal" data-dismiss="modal">close</button>
-                            <a href="game.html"> <button type="button" class="btn btn-light modal-button button-click" data-toggle="modal"
-                                >new game</button></a>
+                    <p>Welcome to your first day in your new office, before you come in get acquainted
+                        with your new team.
+                    </p>
+                    <button type="button" class="btn btn-light modal-button button-click" data-toggle="modal"
+                        data-target="#closeModal" data-dismiss="modal">close</button>
+                    <a href="game.html"> <button type="button" class="btn btn-light modal-button button-click"
+                            data-toggle="modal">new game</button></a>
                 </div>
             </div>
         </div>
     </div>
 
-     <section class="container-fluid container-footer">
+    <section class="container-fluid container-footer">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                    <p class="copyright">&#169; maura's office 2021</p>
+                <p class="copyright">&#169; maura's office 2021</p>
             </div>
         </div>
     </section>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
 
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -80,6 +83,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-          <script src="./assets/javascript/contact.js"></script>
+    <script src="./assets/javascript/contact.js"></script>
 </body>
+
 </html>

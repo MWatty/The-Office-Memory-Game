@@ -15,6 +15,13 @@ margin-left: 105px;
 font-family: 'Courier Prime', monospace;
 }
 
+.nav-item:hover{
+    font-size: larger;
+}
+
+
+
+
 
 * {
   box-sizing: border-box;
@@ -90,7 +97,7 @@ font-family: 'Courier Prime', monospace;
      font-family: 'Courier Prime', monospace;
      background-color: #7FFF00;
      color: #000000; 
-     border-radius: 15px;     
+     border-radius: 15px;
 }
 
 .copyright {
