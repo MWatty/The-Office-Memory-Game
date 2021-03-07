@@ -66,15 +66,32 @@ font-family: 'Courier Prime', monospace;
     margin-bottom: 50px;
 }
 
+
 .entry{
     margin-bottom: 25px;
 }
 
+.entry-button{
+     background-color: #7FFF00;
+}
 
+.entry-button:hover{
+    background-color: #DCDCDC;
+}
 
+.modal-title{
+   font-family: 'Courier Prime', monospace;
+}
+.modal-body{
+     font-family: 'Courier Prime', monospace;
+}
 
-
-
+.modal-button{
+     font-family: 'Courier Prime', monospace;
+     background-color: #7FFF00;
+     color: #000000; 
+     border-radius: 15px;     
+}
 
 .copyright {
     text-align: center;
@@ -103,5 +120,5 @@ font-weight: bold;
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #DCDCDC; /* Add a dark-grey background on hover */
 }
